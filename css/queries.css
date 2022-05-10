@@ -20,6 +20,10 @@
   html {
     font-size: 50%;
   }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /**************************/
@@ -37,6 +41,10 @@
 
   .main-img {
     height: 60rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -82,5 +90,9 @@
 
   .main-nav-list:last-child {
     margin-right: 0.8rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
