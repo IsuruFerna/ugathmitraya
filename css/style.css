@@ -160,6 +160,8 @@ li {
 }
 
 .lipi-list-title {
+  width: 100%;
+  height: auto;
   position: absolute;
   bottom: 0;
   z-index: 1;
