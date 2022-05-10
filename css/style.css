@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans Sinhala", sans-serif;
+}
+
+.heading-primary {
+  font-size: 5.4rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: #120f00;
+}
+
+.heading-secondary {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #241e00;
+}
+
+p {
+  font-size: 2.2rem;
+  margin-bottom: 1.6rem;
+}
+
+p:first-child {
+  margin-top: 2.4rem;
+}
+
+ul {
+  margin: 2.4rem 3.6rem;
+}
+
+li {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.article-header {
+  position: relative;
+  border-bottom: 0.4rem solid #120f00;
+}
+
+.main-title {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto 1.6rem 0.8rem;
+}
+
+.main-img {
+  height: 80rem;
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+#article-0 {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 213, 0, 0.705) 10%,
+      rgba(0, 0, 0, 0) 90%
+    ),
+    url("https://static01.nyt.com/images/2022/03/25/world/25srilanka-21/25srilanka-21-mobileMasterAt3x.jpg");
+}
+
+#article-1 {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 213, 0, 0.705) 10%,
+      rgba(0, 0, 0, 0) 90%
+    ),
+    url(/images/management-inflation.jpg);
+}
+
+.date {
+  font-size: 1.6rem;
+  font-weight: 200;
+  margin: 1.2rem 0rem 0;
+}
+
+.footer {
+  color: #241e00;
+  height: 3.6rem;
+  background-color: #120f00;
+}
+
+/**************************/
+/* Header and navigation */
+/**************************/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #ffd500;
+}
+
+.logo {
+  color: #120f00;
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #120f00;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #fffced;
+}
+
+.main-nav-list:last-child {
+  margin-right: 4.8rem;
+}
+
+/* lipi */
+
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.lipi {
+  height: 100vh;
+  background-color: #fff6c8;
+  padding: 3.2rem;
+}
+/* 
+.lipi-list {
+  position: relative;
+} */
+
+.lipi-list-title {
+  position: absolute;
+  bottom: 0;
+
+  padding: 0 0.8rem 0.8rem 0.8rem;
+  color: #241e00;
+  font-size: 1.4rem;
+}
+
+.article-img {
+  background-size: cover;
+  height: 18rem;
+}
+
+#article-img-0 {
+  background-image: linear-gradient(
+      to top,
+      rgb(255, 213, 0) 5%,
+      rgba(255, 255, 255, 0.5) 95%
+    ),
+    url("https://static01.nyt.com/images/2022/03/25/world/25srilanka-21/25srilanka-21-mobileMasterAt3x.jpg");
+}
+
+#article-img-1 {
+  background-image: linear-gradient(
+      to top,
+      rgb(255, 213, 0) 5%,
+      rgba(255, 255, 255, 0.5) 95%
+    ),
+    url(/images/management-inflation.jpg);
+}
+
+.lipi-list-link:link,
+.lipi-list-link:visited {
+  position: relative;
+  background-color: #fff;
+  color: #555;
+}
+
+.lipi-list-link:hover,
+.lipi-list-link:active {
+  position: relative;
+  border: 3px solid red;
+}
