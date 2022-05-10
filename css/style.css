@@ -154,7 +154,7 @@ li {
   background-color: #fff6c8;
   padding: 3.2rem;
 }
-
+.lipi-list,
 .lipi-list-link {
   position: relative;
 }
@@ -170,7 +170,6 @@ li {
 
 .article-img {
   z-index: 0;
-  position: relative;
   background-size: cover;
   height: 18rem;
 }
