@@ -80,7 +80,7 @@ li {
       rgba(255, 213, 0, 0.705) 10%,
       rgba(0, 0, 0, 0) 90%
     ),
-    url("/images/management-inflation.jpg");
+    url("images/management-inflation.jpg");
 }
 
 .date {
@@ -187,7 +187,7 @@ li {
       rgb(255, 213, 0) 5%,
       rgba(255, 255, 255, 0.5) 95%
     ),
-    url("/images/management-inflation.jpg");
+    url("images/management-inflation.jpg");
 }
 
 .lipi-list-link:link,
