@@ -206,5 +206,5 @@ li {
 .lipi-list-link:hover,
 .lipi-list-link:active {
   position: relative;
-  border: 3px solid red;
+  border: 3px solid #dbb724;
 }
