@@ -95,6 +95,15 @@ li {
     url("/images/anthare.jpg");
 }
 
+#article-3 {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 213, 0, 0.705) 10%,
+      rgba(0, 0, 0, 0) 90%
+    ),
+    url("/images/article-3.png");
+}
+
 /* ///////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////// */
 
@@ -218,6 +227,15 @@ li {
       rgba(255, 255, 255, 0.5) 95%
     ),
     url("/images/anthare.jpg");
+}
+
+#article-img-3 {
+  background-image: linear-gradient(
+      to top,
+      rgb(255, 213, 0) 5%,
+      rgba(255, 255, 255, 0.5) 95%
+    ),
+    url("/images/article-3.png");
 }
 
 .lipi-list-link:link,
